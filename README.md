@@ -27,7 +27,7 @@ Moving object detection is a technique used in computer vision and image process
  
 - Countour and Boundary Boxes
 
-    -  Creating contours on the thresholded frame. Contours are curves joining continuous points in an image with same color intensity. We shall use cv2.RETR_EXTERNAL to fing the extreme outer contours and cv2.CHAIN_APPROX_SIMPLE to remove the redundant points.
+    -  Creating contours on the thresholded frame. Contours are curves joining continuous points in an image with same color intensity. We shall use cv2.RETR_EXTERNAL to find the extreme outer contours and cv2.CHAIN_APPROX_SIMPLE to remove the redundant points.
     -  Creating Bounding Boxes (rectangular) for identified contours and display them on frame_sample
  <br>
  
